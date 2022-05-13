@@ -1,5 +1,5 @@
 <?php function timer() {
-$date = strtotime("13 May 2022");
+$date = strtotime("15 May 2022");
 $sec=$date - time();
 $days=floor(($date - time()) /86400);
 $h1=floor(($date - time()) /3600);
